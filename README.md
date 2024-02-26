@@ -11,6 +11,8 @@ Herkese merhaba arkadaşlar. Bu seride Express.Js ile basit bir backend nasıl o
 
 <img src="https://raw.githubusercontent.com/sequelize/sequelize/97244d96fc8865186ff558cc592d52cc204e73fd/logo.svg" width="30" align="left" />
 
+<br/>
+
 ## Kurulum
 
  1. Proje sayfasına gidin: [Proje Linki](https://github.com/lyokocode/express-youtube-tutuorial) seçtiğiniz projeye girin.
