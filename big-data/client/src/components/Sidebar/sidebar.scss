@@ -1,0 +1,76 @@
+.sidebar {
+    flex: 1;
+    border-right: 0.05rem solid #cfcfcf;
+    z-index: 100;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+    .top {
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--color-primary);
+        }
+
+    }
+
+    .hr {
+        width: 100%;
+        height: 0.05rem;
+        background-color: var(--color-base-secondary);
+    }
+
+    .center {
+        padding-left: 1rem;
+
+        ul {
+            .title {
+                font-size: 1rem;
+                font-weight: bold;
+                color: var(--color-base-secondary);
+                margin-top: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            li,
+            button {
+                display: flex;
+                align-items: center;
+                padding: 0.8rem;
+                width: 100%;
+                cursor: pointer;
+                border-radius: 0.5rem;
+
+
+                &:hover {
+                    background-color: var(--background-third);
+                }
+
+                .icon {
+                    font-size: 1.8rem;
+                    color: var(--color-base-secondary);
+                }
+
+                span {
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    color: var(--color-base-secondary);
+                    margin-left: 1rem;
+
+                    @media screen and (max-width:640px) {
+                        display: none;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

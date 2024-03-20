@@ -1,0 +1,31 @@
+.pagination {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 100%;
+
+    .paginationBtn {
+        display: flex;
+        width: 3.2rem;
+        height: 3.2rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: .4rem;
+        border: .1rem solid #f3f4f6;
+        background-color: #fff;
+        color: #111827;
+        transform: translate(180deg);
+
+        svg {
+            height: 1.8rem;
+            width: 1.8rem;
+        }
+
+    }
+
+    .currentPage {
+        font-size: 1.4rem;
+        color: #475569;
+    }
+}
